@@ -23,7 +23,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 
 #### Basic
 
-- Convolutional Neural Network [[TensorFlow 1](tensorflow1_ipynb/cnn/convnet.ipynb)] [[PyTorch](pytorch_ipynb/cnn/cnn-basic.ipynb)]
+- Convolutional Neural Network [[TensorFlow 1](tensorflow1_ipynb/cnn/cnn-basic.ipynb)] [[PyTorch](pytorch_ipynb/cnn/cnn-basic.ipynb)]
 - Convolutional Neural Network with He Initialization  [[PyTorch](pytorch_ipynb/cnn/cnn-he-init.ipynb)]
 
 #### Concepts
@@ -31,9 +31,9 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - Replacing Fully-Connnected by Equivalent Convolutional Layers [[PyTorch](pytorch_ipynb/cnn/fc-to-conv.ipynb)]
 
 
-#### All-Convolutional
+#### Fully Convolutional
 
-- All-Convolutional Neural Network [[PyTorch](pytorch_ipynb/cnn/cnn-allconv.ipynb)]
+- Fully Convolutional Neural Network [[PyTorch](pytorch_ipynb/cnn/cnn-allconv.ipynb)]
 
 #### AlexNet
 
@@ -70,13 +70,13 @@ A collection of various deep learning architectures, models, and tips for Tensor
 
 #### Fully-connected Autoencoders
 
-- Autoencoder [[TensorFlow 1](tensorflow1_ipynb/autoencoder/autoencoder.ipynb)] [[PyTorch](pytorch_ipynb/autoencoder/ae-basic.ipynb)]
+- Autoencoder [[TensorFlow 1](tensorflow1_ipynb/autoencoder/ae-basic.ipynb)] [[PyTorch](pytorch_ipynb/autoencoder/ae-basic.ipynb)]
 
 #### Convolutional Autoencoders
 
 - Convolutional Autoencoder with Deconvolutions / Transposed Convolutions[[TensorFlow 1](tensorflow1_ipynb/autoencoder/ae-deconv.ipynb)] [[PyTorch](pytorch_ipynb/autoencoder/ae-deconv.ipynb)]
-- Convolutional Autoencoder with Deconvolutions (without pooling operations) [[PyTorch](pytorch_ipynb/autoencoder/aer-deconv-nopool.ipynb)]
-- Convolutional Autoencoder with Nearest-neighbor Interpolation [[TensorFlow 1](tensorflow1_ipynb/autoencoder/autoencoder-conv-nneighbor.ipynb)] [[PyTorch](pytorch_ipynb/autoencoder/ae-conv-nneighbor.ipynb)]
+- Convolutional Autoencoder with Deconvolutions (without pooling operations) [[PyTorch](pytorch_ipynb/autoencoder/ae-deconv-nopool.ipynb)]
+- Convolutional Autoencoder with Nearest-neighbor Interpolation [[TensorFlow 1](tensorflow1_ipynb/autoencoder/ae-conv-nneighbor.ipynb)] [[PyTorch](pytorch_ipynb/autoencoder/ae-conv-nneighbor.ipynb)]
 - Convolutional Autoencoder with Nearest-neighbor Interpolation -- Trained on CelebA [[PyTorch](pytorch_ipynb/autoencoder/ae-conv-nneighbor-celeba.ipynb)]
 - Convolutional Autoencoder with Nearest-neighbor Interpolation -- Trained on Quickdraw [[PyTorch](pytorch_ipynb/autoencoder/ae-conv-nneighbor-quickdraw-1.ipynb)]
 
@@ -92,7 +92,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - Convolutional Conditional Variational Autoencoder (with labels in reconstruction loss) [[PyTorch](pytorch_ipynb/autoencoder/ae-cnn-cvae.ipynb)]
 - Convolutional Conditional Variational Autoencoder (without labels in reconstruction loss) [[PyTorch](pytorch_ipynb/autoencoder/ae-cnn-cvae_no-out-concat.ipynb)]
 
-## General Adversarial Networks (GANs)
+## Generative Adversarial Networks (GANs)
 
 - Fully Connected GAN on MNIST [[TensorFlow 1](tensorflow1_ipynb/gan/gan.ipynb)] [[PyTorch](pytorch_ipynb/gan/gan.ipynb)]
 - Convolutional GAN on MNIST [[TensorFlow 1](tensorflow1_ipynb/gan/gan-conv.ipynb)] [[PyTorch](pytorch_ipynb/gan/gan-conv.ipynb)]
@@ -106,6 +106,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - A simple single-layer RNN (IMDB) [[PyTorch](pytorch_ipynb/rnn/rnn_simple_imdb.ipynb)]
 - A simple single-layer RNN with packed sequences to ignore padding characters (IMDB) [[PyTorch](pytorch_ipynb/rnn/rnn_simple_packed_imdb.ipynb)]
 - RNN with LSTM cells (IMDB) [[PyTorch](pytorch_ipynb/rnn/rnn_lstm_packed_imdb.ipynb)]
+- RNN with LSTM cells (IMDB) and pre-trained GloVe word vectors [[PyTorch](pytorch_ipynb/rnn/rnn_lstm_packed_imdb-glove.ipynb)]
 - RNN with LSTM cells and Own Dataset in CSV Format (IMDB) [[PyTorch](pytorch_ipynb/rnn/rnn_lstm_packed_own_csv_imdb.ipynb)]
 - RNN with GRU cells (IMDB) [[PyTorch](pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb)]
 - Multilayer bi-directional RNN (IMDB) [[PyTorch](pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb)]
@@ -140,7 +141,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- CSV files converted to HDF5 [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-csv.ipynb)]
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- Face Images from CelebA [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-celeba.ipynb)]
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- Drawings from Quickdraw [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-quickdraw.ipynb)]
-- Using PyTorch Dataset Loading Utilities for Custom Datasets -- Drawings from the Street View House Number (SVHN) Dataset [[PyTorch](pytorch_ipynb/custom-data-loader-svhn.ipynb)]
+- Using PyTorch Dataset Loading Utilities for Custom Datasets -- Drawings from the Street View House Number (SVHN) Dataset [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-svhn.ipynb)]
 
 #### Training and Preprocessing
 
@@ -159,7 +160,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 
 - Sequential API and hooks  [[PyTorch](pytorch_ipynb/mlp/mlp-sequential.ipynb)]
 - Weight Sharing Within a Layer  [[PyTorch](pytorch_ipynb/mechanics/cnn-weight-sharing.ipynb)]
-- Plotting Live Training Performance in Jupyter Notebooks with just Matplotlib  [[PyTorch](pytorch_ipynb/mlp/plot-jupyter-matplotlib.ipynb)]
+- Plotting Live Training Performance in Jupyter Notebooks with just Matplotlib  [[PyTorch](pytorch_ipynb/mechanics/plot-jupyter-matplotlib.ipynb)]
 
 #### Autograd
 
