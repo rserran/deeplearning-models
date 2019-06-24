@@ -55,6 +55,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - ResNet-50 Digit Classifier Trained on MNIST [[PyTorch](pytorch_ipynb/cnn/cnn-resnet50-mnist.ipynb)]
 - ResNet-50 Gender Classifier Trained on CelebA [[PyTorch](pytorch_ipynb/cnn/cnn-resnet50-celeba-dataparallel.ipynb)]
 - ResNet-101 Gender Classifier Trained on CelebA [[PyTorch](pytorch_ipynb/cnn/cnn-resnet101-celeba.ipynb)]
+- ResNet-101 Trained on CIFAR-10 [[PyTorch](pytorch_ipynb/cnn/cnn-resnet101-cifar10.ipynb)]
 - ResNet-152 Gender Classifier Trained on CelebA [[PyTorch](pytorch_ipynb/cnn/cnn-resnet152-celeba.ipynb)]
 
 #### Network in Network
@@ -121,7 +122,7 @@ A collection of various deep learning architectures, models, and tips for Tensor
 
 - Ordinal Regression CNN -- CORAL w. ResNet34 on AFAD-Lite [[PyTorch](pytorch_ipynb/ordinal/ordinal-cnn-coral-afadlite.ipynb)]
 - Ordinal Regression CNN -- Niu et al. 2016 w. ResNet34 on AFAD-Lite [[PyTorch](pytorch_ipynb/ordinal/ordinal-cnn-niu-afadlite.ipynb)]
-- Ordinal Regression CNN -- Beckham and Pal 2016 w. ResNet34 on AFAD-Lite [[PyTorch](pytorch_ipynb/ordinal/ordinal-cnn-niu-afadlite.ipynb)]
+- Ordinal Regression CNN -- Beckham and Pal 2016 w. ResNet34 on AFAD-Lite [[PyTorch](pytorch_ipynb/ordinal/ordinal-cnn-beckham2016-afadlite.ipynb)]
 
 
 
@@ -142,9 +143,11 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- Face Images from CelebA [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-celeba.ipynb)]
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- Drawings from Quickdraw [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-quickdraw.ipynb)]
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- Drawings from the Street View House Number (SVHN) Dataset [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-svhn.ipynb)]
+- Using PyTorch Dataset Loading Utilities for Custom Datasets -- Asian Face Dataset (AFAD) [[PyTorch](pytorch_ipynb/mechanics/custom-data-loader-afad.ipynb)]
 
 #### Training and Preprocessing
 
+- Generating Validation Set Splits [[PyTorch]](pytorch_ipynb/mechanics/validation-splits.ipynb)]
 - Dataloading with Pinned Memory [[PyTorch](pytorch_ipynb/cnn/cnn-resnet34-cifar10-pinmem.ipynb)]
 - Standardizing Images [[PyTorch](pytorch_ipynb/cnn/cnn-standardized.ipynb)]
 - Image Transformation Examples [[PyTorch](pytorch_ipynb/mechanics/torchvision-transform-examples.ipynb)]
